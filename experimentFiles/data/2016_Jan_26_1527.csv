@@ -1,0 +1,6 @@
+sent,condition,sentID,PracSent.thisRepN,PracSent.thisTrialN,PracSent.thisN,PracSent.thisIndex,rating_6.response,rating_6.rt,Ready.keys,Ready.rt,rechtshandig,geslacht,leeftijd,frameRate,list,expName,deelnemer,date,opleiding,
+"Nancy put the brownies in the oven, and Bonnie the juice in the fridge.",a,4a,0,0,0,2,3,13.06,,,,,,59.6075622501,A,sentJudg,1,2016_Jan_26_1527,,
+"Sally bought on the blouse with the bonnets, and Tracy the suitcase with the leather pockets.",a,5a,0,1,1,3,4,0.888,,,,,,59.6075622501,A,sentJudg,1,2016_Jan_26_1527,,
+"Peter cooked the steaks on the grill, and Liz the ketchup on the table.",b,2b,0,2,2,1,6,1.153,,,,,,59.6075622501,A,sentJudg,1,2016_Jan_26_1527,,
+"Jane ordered a coffee with cream, and Bill a sandwich with cheese.",a,1a,0,3,3,0,5,0.904,,,,,,59.6075622501,A,sentJudg,1,2016_Jan_26_1527,,
+,,,,,,,,,space,6.93958902359,,,,59.6075622501,A,sentJudg,1,2016_Jan_26_1527,,

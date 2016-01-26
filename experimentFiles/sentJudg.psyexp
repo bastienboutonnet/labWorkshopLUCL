@@ -2,11 +2,11 @@
   <Settings>
     <Param name="Show mouse" val="True" valType="bool" updates="None"/>
     <Param name="Data filename" val="u'data' + os.path.sep + expInfo['date']" valType="code" updates="None"/>
-    <Param name="Monitor" val="MacBook" valType="str" updates="None"/>
+    <Param name="Monitor" val="mainMonitor" valType="str" updates="None"/>
     <Param name="Enable Escape" val="True" valType="bool" updates="None"/>
     <Param name="color" val="black" valType="str" updates="None"/>
-    <Param name="Window size (pixels)" val="[1240, 800]" valType="code" updates="None"/>
-    <Param name="Full-screen window" val="False" valType="bool" updates="None"/>
+    <Param name="Window size (pixels)" val="[1280, 800]" valType="code" updates="None"/>
+    <Param name="Full-screen window" val="True" valType="bool" updates="None"/>
     <Param name="colorSpace" val="rgb" valType="str" updates="None"/>
     <Param name="Experiment info" val="{u'rechtshandig': u'', u'geslacht': u'', u'leeftijd': u'', u'list': u'A', u'deelnemer': u'1', u'opleiding': u''}" valType="code" updates="None"/>
     <Param name="Save csv file" val="False" valType="bool" updates="None"/>
@@ -119,7 +119,7 @@
         <Param name="name" val="instrText_2" valType="code" updates="constant"/>
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
         <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="Welkom bij dit experiment en alvast bedankt voor uw deelname.&#13;&#10;&#13;&#10;U gaat zinnen beoordelen op hun acceptabiliteit: er wordt één voor één een zin getoond en u bepaalt in hoeverre de getoonde zin acceptabel Nederlands is." valType="str" updates="constant"/>
+        <Param name="text" val="Welcome to this experiment.&#10;&#10;We will show you a series of sentences and your task will be to rate how acceptable you think it is using the rating scale provided.&#10;&#10;When you are ready, press the space bar." valType="str" updates="constant"/>
         <Param name="stopVal" val="" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
         <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
@@ -181,7 +181,7 @@
       <Param name="loopType" val="random" valType="str" updates="None"/>
       <Param name="nReps" val="1" valType="code" updates="None"/>
       <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
-      <Param name="conditions" val="[{'sent': u'Jane ordered a coffee with cream, and Bill a sandwich with cheese.', 'condition': u'a', 'sentID': u'1a'}, {'sent': u'Peter cooked the steaks on the grill, and Liz the ketchup on the table.', 'condition': u'b', 'sentID': u'2b'}, {'sent': u'Nancy put the brownies in the oven, and Bonnie the juice in the fridge.', 'condition': u'a', 'sentID': u'4a'}, {'sent': u'Sally bought on the blouse with the bonnets, and Tracy the suitcase with the leather pockets.', 'condition': u'a', 'sentID': u'5a'}]" valType="str" updates="None"/>
+      <Param name="conditions" val="[{'condition': u'a', 'sent': u'Jane ordered a coffee with cream, and Bill a sandwich with cheese.', 'sentID': u'1a'}, {'condition': u'b', 'sent': u'Peter cooked the steaks on the grill, and Liz the ketchup on the table.', 'sentID': u'2b'}, {'condition': u'a', 'sent': u'Nancy put the brownies in the oven, and Bonnie the juice in the fridge.', 'sentID': u'4a'}, {'condition': u'a', 'sent': u'Sally bought on the blouse with the bonnets, and Tracy the suitcase with the leather pockets.', 'sentID': u'5a'}]" valType="str" updates="None"/>
       <Param name="Selected rows" val="" valType="str" updates="None"/>
     </LoopInitiator>
     <Routine name="practice"/>

@@ -414,6 +414,7 @@ div#notebook {
 <li>Choose the <strong>end point</strong> of your loop (i.e., the point where it will go back in the timeline) with the " • ".</li>
 <li>Choose the <strong>start point</strong> where you want the loop to go back to, using the other " • ".</li>
 <li>Give a name to yout loop, and specify its parameters (e.g., number of repetitions, conditions, etc.)</li>
+<li>In the parameters, if you're feeding stimuli from a trial list (e.g., a sentence contained in an excel sheet), make sure that in the box next to the "Text" input you choose <code>set every repeat</code>. That will allow PsychoPy to know that it has to fetch the text from somewhere else rather than trying to print the column key.</li>
 <li>Confirm and now a loop appears around one (or more) of your Routines.</li>
 </ol>
 <p><img src="illustrations/loop.png" alt="Figure 3. A loop in PsychoPy GUI">
